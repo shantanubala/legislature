@@ -31,7 +31,6 @@ class Tag(db.Model, ModelUtils):
 		return self.name
 
 
-
 class Bill(db.Model, ModelUtils):
 	""" Store data about a bill.
 	"""
