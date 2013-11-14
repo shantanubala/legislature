@@ -1,0 +1,6 @@
+<h1>Editing {{.Name}}</h1>
+
+<form action="/save/{{.Name}}" method="POST">
+	<div><textarea name="tags" rows="20" cols="80">{{.TagString}}</textarea></div>
+	<div><button type="submit">Save</button></div>
+</form>
